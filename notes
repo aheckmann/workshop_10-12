@@ -1,0 +1,55 @@
+
+basic http server
+console.log
+process.stdout
+
+npm init
+  - create our package.json file
+  - add
+    - express 3.0.0rc5
+    - mongodb 1.1.11
+    - mocha 1.5.0
+    - jade 0.27.4
+    - superagent 0.9.4 (or request)
+
+npm install
+
+mkdir views routes lib public
+
+webserver (express)
+  - configuration 5
+  - static files 3
+  - dynamic content 10
+    - rendered with jade 10
+  - middleware 5
+
+connect to mongo
+
+poll webservice for json 10
+  - fix resulting doc props
+  - get a collection
+  - store in mongodb 10
+    - insert into db
+    - checking for errors
+  - confirm in shell
+    - each doc gets an auto _id
+    - lib/shell.js
+    - aggregation / queries 10
+    - ensureIndex
+
+integrate webserver with mongodb data
+  - sessions? (https://github.com/masylum/connect-mongodb)
+  - query from node 7
+  - render docs with jade 15
+  - render docs as rest-like webservice 5
+  - rest url with latest stocks using events + middleware
+
+configure a replica set?
+  - demonstrate failover 10
+
+handle multiple simultaneous queries 10
+
+streaming large result sets 5
+  - to response
+  - to anywhere
+

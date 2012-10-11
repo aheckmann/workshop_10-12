@@ -1,0 +1,19 @@
+{
+  "name": "step1",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "express": "3.0.0rc5",
+    "mongodb": "1.1.11",
+    "jade": "0.27.4",
+    "superagent": "0.9.4",
+    "mocha": "1.5.0"
+  }
+}

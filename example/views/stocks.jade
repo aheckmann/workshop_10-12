@@ -1,0 +1,15 @@
+
+extends layout
+
+block body
+  ul
+    each stock in stocks
+      li
+        dl
+          dt= stock._id
+          dt Avg
+          dd= stock.avg
+          dt Min
+          dd= stock.min
+          dt Max
+          dd= stock.max
